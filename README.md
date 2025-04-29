@@ -5,7 +5,7 @@
 - Responda as perguntas no próprio Readme.md
 - Suba o código no repositório
 - Insira a mensagem retornada do servidor
-   -R: Olá mundo! LTIS 2025
+   - R: Olá mundo! LTIS 2025
 - Nos envie o link do seu repositório
 
 ### Parte 1 – Conceito
