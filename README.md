@@ -12,11 +12,11 @@
 Pesquise e explique com suas palavras:
 
 - O que são WebSockets?
-- R: WebSockets é uma API, que funciona como uma conexão direta entre cliente e browser, através de um protocolo TCP.
+  - R: WebSockets é uma API, que funciona como uma conexão direta entre cliente e browser, através de um protocolo TCP.
 - Como funcionam?
-- R: Conecta um cliente a um servidor de forma bidirecional permanente, assim permitindo que a troca de mensagens seja em tempo real.
+  - R: Conecta um cliente a um servidor de forma bidirecional permanente, assim permitindo que a troca de mensagens seja em tempo real.
 - Quando é melhor usar WebSockets em vez de uma API REST tradicional?
-- R: Quando o que for necessário seja um servidor de baixa latência, no caso em que a resposta tenha que ser em tempo real, no caso do robô de simulação, isto seria extremamente bem vindo.
+  - R: Quando o que for necessário seja um servidor de baixa latência, no caso em que a resposta tenha que ser em tempo real, no caso do robô de simulação, isto seria extremamente bem vindo.
 
 ### Parte 2 – Prática
 
@@ -56,11 +56,11 @@ Outros requisitos:
    - R: Utilizaria Python, pois é uma linguagem que possui bibliotecas e ferramentas que facilitam a criação deste serviço. Porém também poderia ser possível utilizar ferramentas de JavaScript, para conexão do cliente.
 2. Como garantiria o envio correto para:
    - Todos os usuários?
-    - R: Poderia utilizar um sistema sem a filtragem de nomes, que enviaria uma mensagem para todos os clientes, ou talvez um sistema de BroadCast, que enviaria a todas as conexões.
+      - R: Poderia utilizar um sistema sem a filtragem de nomes, que enviaria uma mensagem para todos os clientes, ou talvez um sistema de BroadCast, que enviaria a todas as conexões.
    - Apenas um usuário específico?
       - R: Poderia filtrar um nome específico(ID de usuário) e assim enviaria uma mensagem a cada cliente especificamente.
    - Todas as sessões abertas de um mesmo usuário?
-    - R: Caso a conexão seja filtrada por usuário, o envio seria para todas as conexões, sem ter uma conexão em específico
+      - R: Caso a conexão seja filtrada por usuário, o envio seria para todas as conexões, sem ter uma conexão em específico
 
 3. Existe alguma ferramenta ou biblioteca que facilitaria esse tipo de comunicação?  
    Se sim, **qual?** E **por quê?**
