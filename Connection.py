@@ -14,6 +14,6 @@ async def connect_to_websocket(uri):
               print("Connection closed by the server")
 
     if __name__ == "__main__":
-        uri = "https://websocket-fh6l.onrender.com/" 
+        uri = "ws://websocket-fh6l.onrender.com/" 
         #Começa a rodar de maneira assíncrona.
         asyncio.run(connect_to_websocket(uri))
